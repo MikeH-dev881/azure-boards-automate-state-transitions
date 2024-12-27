@@ -661,6 +661,33 @@
       "setParentStateTo": "Data Conversion To Do",
       "allChildren": false
     },
+	{
+      "ifChildState": "Removed",
+      "notParentStates": [
+        
+        "Data Conversion To Do",
+        "Data Conversion Wait",
+        "Data Conversion Hold",
+        "Validation To Do",
+        "Validation Wait",
+        "Validation Hold",
+        "Code Review To Do",
+        "Code Review Wait",
+        "Reporting To Do",
+        "Reporting Wait",
+        "Data Conversion In Progress",
+        "Validation In Progress",
+        "Code Review In Progress",
+        "Reporting In Progress",
+        "Resolved",
+        "Delivered",
+        "Removed"
+      ],
+      "ParentType": "Program",
+      "Filter": "01-Renovation",
+      "setParentStateTo": "Data Conversion To Do",
+      "allChildren": false
+    },
     {
       "ifChildState": "Closed",
       "notParentStates": [
@@ -832,6 +859,7 @@
       "setParentStateTo": "Reporting To Do",
       "allChildren": false
     },
+	
     {
       "ifChildState": "Closed",
       "notParentStates": [
